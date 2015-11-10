@@ -1,3 +1,17 @@
+body {
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Museo';
+	src: url('../fonts/Museo700.ttf') format('truetype');
+}
+
 a, button{
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -9,6 +23,7 @@ hr {
 	margin: 0px;
 	border-top: 1px solid #B2B2B2;
 }
+
 
 /*jumbotron*/
 .jumbotron {
@@ -61,11 +76,12 @@ hr {
 .navbar-nav > li > a {
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 /*.jumbotron .about .name*/
 #name h1{
+	font-weight: bold;
 	color: white;
 	letter-spacing: 5px;
 	background-color: #B4121B;
@@ -93,6 +109,11 @@ hr {
 }
 
 
+.title {
+	letter-spacing: 2px;
+}
+
+
 /*section*/
 #about {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -110,6 +131,7 @@ hr {
 		text-align: center;
 		line-height: 35px;
 		padding: 60px 0px 65px 0px;
+		letter-spacing: 1px;
 		}
 	.social {
 		text-align: center;
