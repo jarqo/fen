@@ -84,7 +84,7 @@ hr {
 	font-weight: bold;
 	color: white;
 	letter-spacing: 5px;
-	background-color: #B4121B;
+	/*background-color: #222222;*/
 	margin: 0px;
 	padding: 8px 15px;
 	}
@@ -130,7 +130,7 @@ hr {
 		color: white;
 		text-align: center;
 		line-height: 35px;
-		padding: 60px 0px 65px 0px;
+		padding: 40px 0px 45px 0px;
 		letter-spacing: 1px;
 		}
 	.social {
@@ -164,13 +164,13 @@ hr {
 	}
 	#portfolio h1 {
 		text-align: left;
-		color: #FFFFFF;
-		background-color: #B4121B;
+		color: #404040;
 		width: 247px;
 		margin: 0px;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	#portfolio h5 {
 		line-height: 20px;
@@ -202,16 +202,16 @@ hr {
 	}
 	#resume h1 {
 		text-align: center;
-		color: white;
+		color: #404040;
 		margin: auto;
-		margin-top: 100px;
+		margin-top: 70px;
 		padding-top: 18px;
 		padding-bottom: 17px;
 		width: 200px;
-		background-color: #B4121B;
+		font-weight: bold;
 	}
 	#resume-content {
-		padding-top: 50px;
+		padding-top: 35px;
 		color: #404040;
 	}
 	.cont-space {
@@ -223,7 +223,7 @@ hr {
 	.inner {
 			background-color: transparent;
 			height: 460px;
-			margin-bottom: 70px;
+			margin-bottom: 28px;
 			padding: 60px;
 		}
 		.inner h4 {
@@ -250,16 +250,15 @@ hr {
 	color: #404040;
 	}
 	#contact h1 {
-		text-align: left;
-		color: #FFFFFF;
-		background-color: #B4121B;
-		width: 214px;
+		text-align: center;
+		color: #404040;
 		margin: 0px;
-		margin-top: 100px;
+		margin-top: 65px;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		padding-left: 20px;
 		text-transform: uppercase;
+		font-weight: bold;
 	}
 	#contact h3 {
 		padding-bottom: 20px;
