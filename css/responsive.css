@@ -19,6 +19,13 @@
 	#resume h1 {
 		padding-bottom: 70px;
 	}
+
+
+	/*Contact*/
+	#contact-content .col-sm-8 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 }
  
 /* Landscape phone to portrait tablet */
@@ -79,10 +86,16 @@
 		margin: 0 auto;
 		width: 200px;
 	}
-	#contact-content .col-sm-4 {
+	#contact-content .col-sm-8 {
 		text-align: center;
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding: 30px 0px;
+	}
+	#gmaps {
+		margin-bottom: 40px;
+		margin-left: 0px;
+	}
+	#form-contact {
+		padding-left: 15px;
 	}
 }
 

@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-family: "Roboto",sans-serif;
 }
 
 @font-face {
@@ -267,14 +267,24 @@ hr {
 		font-weight: bold;
 	}
 	#contact h3 {
-		padding-bottom: 20px;
+		padding-bottom: 16px;
 		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 #contact-content {
 	padding: 70px 0px;
 }
-#profile-img {
-	width: 100%;
+img.profile.img-responsive.img-rounded {
+	width: 160px;
+}
+#gmaps {
+	margin-top: 20px;
+	margin-left: 15px;
+	padding-right: 15px;
+	height: 205px;
+}
+#form-contact {
+	padding-left: 45px;
 }
 /*end section*/
 
