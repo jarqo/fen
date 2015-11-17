@@ -1,10 +1,19 @@
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
-
+@media (min-width: 768px) and (max-width: 991px) { 
+	/*portfolio*/
+	.right-col, .thumb {
+		text-align: center;
+		padding: 0px 40px;
+		margin: 45px 0px;
+	}
+	#portfolio h1 {
+		text-align: center;
+	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	/*navbar*/
 	.navbar {
 		background: #222;
 	}
@@ -14,6 +23,26 @@
 
 	.navbar-inverse .navbar-toggle {
 		border: none;
+	}
+
+
+	/*about*/
+	#name h2 {
+		padding-right: 15px;
+	}
+
+
+	/*portfolio*/
+	.right-col, .thumb {
+		text-align: center;
+		padding: 0px 40px;
+		margin: 45px 0px;
+	}
+	#portfolio h1 {
+		text-align: center;
+	}
+	#media div.col-sm-3 {
+		padding-bottom: 20px;
 	}
 }
 
@@ -31,5 +60,10 @@
 	/*about*/
 	#name h2 {
 		padding-left: 15px;
+	}
+
+	/*portfolio*/
+	#media div.col-sm-3 {
+		padding-bottom: 20px;
 	}
 }

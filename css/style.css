@@ -172,11 +172,10 @@ hr {
 	#portfolio h1 {
 		text-align: left;
 		color: #404040;
-		width: 247px;
 		margin: 0px;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		padding-left: 20px;
+		padding-left: 0px;
 		font-weight: bold;
 	}
 	#portfolio h5 {
