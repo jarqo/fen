@@ -72,6 +72,18 @@
 	#resume h1 {
 		padding-bottom: 70px;
 	}
+
+
+	/*Contact*/
+	img.profile.img-responsive.img-rounded {
+		margin: 0 auto;
+		width: 200px;
+	}
+	#contact-content .col-sm-4 {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 }
 
 /* Landscape phones and down */
