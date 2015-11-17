@@ -78,6 +78,13 @@ hr {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+#logo {
+	width: 40px;
+}
+.navbar-brand {
+	padding: 5px 0px 0px 25px;
+}
+
 
 /*.jumbotron .about .name*/
 #name h1{

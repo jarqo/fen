@@ -11,4 +11,18 @@
 	.navbar-nav {
 		width: auto;
 	}
+
+	.navbar-inverse .navbar-toggle {
+		border: none;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.navbar-nav > li {
+		display: inline;
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		border: none;
+	}
 }
