@@ -173,7 +173,7 @@ hr {
 		text-align: left;
 		color: #404040;
 		margin: 0px;
-		padding-top: 15px;
+		/*padding-top: 15px;*/
 		padding-bottom: 15px;
 		padding-left: 0px;
 		font-weight: bold;
@@ -187,13 +187,17 @@ hr {
 	.thumb {
 		padding-top: 90px;
 		padding-bottom: 60px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 	.pad-left {
-		padding-left: 6px;
+		padding-left: 4px;
 	}
 	.right-col {
 		padding-top: 90px;
-		padding-bottom: 60px
+		padding-bottom: 60px;
+		padding-right: 25px;
+		padding-left: 0px;
 	}
 	#media {
 		padding-bottom: 50px;
@@ -201,6 +205,9 @@ hr {
 		#media a {
 			color: #B6B6B6;
 		}
+	div.thumb img {
+		margin: 0 auto;
+	}
 
 
 #resume {
@@ -274,7 +281,7 @@ hr {
 #contact-content {
 	padding: 70px 0px;
 }
-img.profile.img-responsive.img-rounded {
+img.profile.img-responsive {
 	width: 160px;
 }
 #gmaps {
