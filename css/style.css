@@ -286,6 +286,15 @@ img.profile.img-responsive.img-rounded {
 #form-contact {
 	padding-left: 45px;
 }
+.form-control {
+	border: 1px transparent;
+	border-radius: 0px;
+	box-shadow: none;
+}
+.btn.btn-default {
+	border: 0px;
+	border-radius: 0px;
+}
 /*end section*/
 
 
