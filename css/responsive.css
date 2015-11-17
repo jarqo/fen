@@ -19,10 +19,17 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	/*navbar*/
 	.navbar-nav > li {
 		display: inline;
 	}
 	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 		border: none;
+	}
+
+
+	/*about*/
+	#name h2 {
+		padding-left: 15px;
 	}
 }
