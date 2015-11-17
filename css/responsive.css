@@ -1,6 +1,6 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) { 
-	/*portfolio*/
+	/*Portfolio*/
 	.right-col, .thumb {
 		text-align: center;
 		padding: 0px 40px;
@@ -9,11 +9,21 @@
 	#portfolio h1 {
 		text-align: center;
 	}
+
+
+	/*Resume*/
+	.inner {
+		padding: 0px 230px 40px 230px;
+		height: auto;
+	}
+	#resume h1 {
+		padding-bottom: 70px;
+	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	/*navbar*/
+	/*Navbar*/
 	.navbar {
 		background: #222;
 	}
@@ -26,13 +36,13 @@
 	}
 
 
-	/*about*/
+	/*About*/
 	#name h2 {
 		padding-right: 15px;
 	}
 
 
-	/*portfolio*/
+	/*Portfolio*/
 	.right-col, .thumb {
 		text-align: center;
 		padding: 0px 40px;
@@ -44,11 +54,29 @@
 	#media div.col-sm-3 {
 		padding-bottom: 20px;
 	}
+
+
+	/*Resume*/
+	#resume h5, p, ul {
+		text-align: center;
+	}
+	#resume ul {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.inner {
+		padding-top: 0px;
+		padding-bottom: 50px;
+		height: auto;
+	}
+	#resume h1 {
+		padding-bottom: 70px;
+	}
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	/*navbar*/
+	/*Navbar*/
 	.navbar-nav > li {
 		display: inline;
 	}
@@ -57,12 +85,12 @@
 	}
 
 
-	/*about*/
+	/*About*/
 	#name h2 {
 		padding-left: 15px;
 	}
 
-	/*portfolio*/
+	/*Portfolio*/
 	#media div.col-sm-3 {
 		padding-bottom: 20px;
 	}
