@@ -1,3 +1,17 @@
+body {
+    font-family: "Roboto",sans-serif;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Museo';
+	src: url('../fonts/Museo700.ttf') format('truetype');
+}
+
 a, button{
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -9,6 +23,7 @@ hr {
 	margin: 0px;
 	border-top: 1px solid #B2B2B2;
 }
+
 
 /*jumbotron*/
 .jumbotron {
@@ -61,14 +76,22 @@ hr {
 .navbar-nav > li > a {
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
+#logo {
+	width: 40px;
+}
+.navbar-brand {
+	padding: 5px 0px 0px 25px;
+}
+
 
 /*.jumbotron .about .name*/
 #name h1{
+	font-weight: bold;
 	color: white;
 	letter-spacing: 5px;
-	background-color: #B4121B;
+	/*background-color: #222222;*/
 	margin: 0px;
 	padding: 8px 15px;
 	}
@@ -93,6 +116,11 @@ hr {
 }
 
 
+.title {
+	letter-spacing: 2px;
+}
+
+
 /*section*/
 #about {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -109,7 +137,8 @@ hr {
 		color: white;
 		text-align: center;
 		line-height: 35px;
-		padding: 60px 0px 65px 0px;
+		padding: 40px 0px 45px 0px;
+		letter-spacing: 1px;
 		}
 	.social {
 		text-align: center;
@@ -142,13 +171,12 @@ hr {
 	}
 	#portfolio h1 {
 		text-align: left;
-		color: #FFFFFF;
-		background-color: #B4121B;
-		width: 247px;
+		color: #404040;
 		margin: 0px;
-		padding-top: 15px;
+		/*padding-top: 15px;*/
 		padding-bottom: 15px;
-		padding-left: 20px;
+		padding-left: 0px;
+		font-weight: bold;
 	}
 	#portfolio h5 {
 		line-height: 20px;
@@ -159,13 +187,17 @@ hr {
 	.thumb {
 		padding-top: 90px;
 		padding-bottom: 60px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 	.pad-left {
-		padding-left: 6px;
+		padding-left: 4px;
 	}
 	.right-col {
 		padding-top: 90px;
-		padding-bottom: 60px
+		padding-bottom: 60px;
+		padding-right: 25px;
+		padding-left: 0px;
 	}
 	#media {
 		padding-bottom: 50px;
@@ -173,6 +205,9 @@ hr {
 		#media a {
 			color: #B6B6B6;
 		}
+	div.thumb img {
+		margin: 0 auto;
+	}
 
 
 #resume {
@@ -180,16 +215,16 @@ hr {
 	}
 	#resume h1 {
 		text-align: center;
-		color: white;
+		color: #404040;
 		margin: auto;
-		margin-top: 100px;
+		margin-top: 70px;
 		padding-top: 18px;
 		padding-bottom: 17px;
 		width: 200px;
-		background-color: #B4121B;
+		font-weight: bold;
 	}
 	#resume-content {
-		padding-top: 50px;
+		padding-top: 15px;
 		color: #404040;
 	}
 	.cont-space {
@@ -201,7 +236,7 @@ hr {
 	.inner {
 			background-color: transparent;
 			height: 460px;
-			margin-bottom: 70px;
+			margin-bottom: 28px;
 			padding: 60px;
 		}
 		.inner h4 {
@@ -228,26 +263,44 @@ hr {
 	color: #404040;
 	}
 	#contact h1 {
-		text-align: left;
-		color: #FFFFFF;
-		background-color: #B4121B;
-		width: 214px;
+		text-align: center;
+		color: #404040;
 		margin: 0px;
-		margin-top: 100px;
+		margin-top: 65px;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		padding-left: 20px;
 		text-transform: uppercase;
+		font-weight: bold;
 	}
 	#contact h3 {
-		padding-bottom: 20px;
+		padding-bottom: 16px;
 		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 #contact-content {
 	padding: 70px 0px;
 }
-#profile-img {
-	width: 100%;
+img.profile.img-responsive {
+	width: 160px;
+}
+#gmaps {
+	margin-top: 20px;
+	margin-left: 15px;
+	padding-right: 15px;
+	height: 205px;
+}
+#form-contact {
+	padding-left: 45px;
+}
+.form-control {
+	border: 1px transparent;
+	border-radius: 0px;
+	box-shadow: none;
+}
+.btn.btn-default {
+	border: 0px;
+	border-radius: 0px;
 }
 /*end section*/
 

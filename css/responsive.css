@@ -1,0 +1,122 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) { 
+	/*Portfolio*/
+	.right-col, .thumb {
+		text-align: center;
+		padding: 0px 40px;
+		margin: 45px 0px;
+	}
+	#portfolio h1 {
+		text-align: center;
+	}
+
+
+	/*Resume*/
+	.inner {
+		padding: 0px 230px 40px 230px;
+		height: auto;
+	}
+	#resume h1 {
+		padding-bottom: 70px;
+	}
+
+
+	/*Contact*/
+	#contact-content .col-sm-8 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	/*Navbar*/
+	.navbar {
+		background: #222;
+	}
+	.navbar-nav {
+		width: auto;
+	}
+
+	.navbar-inverse .navbar-toggle {
+		border: none;
+	}
+
+
+	/*About*/
+	#name h2 {
+		padding-right: 15px;
+	}
+
+
+	/*Portfolio*/
+	.right-col, .thumb {
+		text-align: center;
+		padding: 0px 40px;
+		margin: 45px 0px;
+	}
+	#portfolio h1 {
+		text-align: center;
+	}
+	#media div.col-sm-3 {
+		padding-bottom: 20px;
+	}
+
+
+	/*Resume*/
+	#resume h5, p, ul {
+		text-align: center;
+	}
+	#resume ul {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.inner {
+		padding-top: 0px;
+		padding-bottom: 50px;
+		height: auto;
+	}
+	#resume h1 {
+		padding-bottom: 70px;
+	}
+
+
+	/*Contact*/
+	img.profile.img-responsive {
+		margin: 0 auto;
+		width: 200px;
+	}
+	#contact-content .col-sm-8 {
+		text-align: center;
+		padding: 30px 0px;
+	}
+	#gmaps {
+		margin-bottom: 40px;
+		margin-left: 0px;
+	}
+	#form-contact {
+		padding-left: 15px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	/*Navbar*/
+	.navbar-nav > li {
+		display: inline;
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		border: none;
+	}
+
+
+	/*About*/
+	#name h2 {
+		padding-left: 15px;
+	}
+
+	/*Portfolio*/
+	#media div.col-sm-3 {
+		padding-bottom: 20px;
+	}
+}
