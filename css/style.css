@@ -58,6 +58,8 @@ hr {
 }
 .top-nav-collapse {
 	background: #222222;
+	box-shadow: 0px 1px 8px #222222;
+	z-index: 2;
 }
 
 
@@ -122,16 +124,19 @@ hr {
 
 
 /*section*/
-#about {
-	background-color: rgba(0, 0, 0, 0.7);
-	padding-top: 72px;
-	padding-bottom: 60px;
-	}
-	#about h1 {
-		margin-top: 0px;
-	}
 #about-2 {
 	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 72px;
+	box-shadow: 0px 4px 8px #888888;
+	border-bottom: solid 1px #888888;
+	position: relative;
+	z-index: 1;
+	}
+	#about-2 h1, #about-2 h2, #about-2 i {
+		text-shadow: 2px 4px 4px rgba(1,1,1,0.3);
+	}
+	#about-2 h1 {
+		margin-top: 0px;
 	}	
 	#about-2 h4 {
 		color: white;
@@ -142,6 +147,7 @@ hr {
 		}
 	.social {
 		text-align: center;
+		padding-top: 50px;
 		}
 		.social-share {
 			display: inline-block;
@@ -279,16 +285,19 @@ hr {
 		margin-bottom: 0px;
 	}
 #contact-content {
-	padding: 70px 0px;
-}
+	padding: 70px 0px 90px 0px;
+	}
 img.profile.img-responsive {
 	width: 160px;
 }
+#personal-info {
+	padding-left: 0px;
+}
 #gmaps {
-	margin-top: 20px;
+	margin-top: 25px;
 	margin-left: 15px;
 	padding-right: 15px;
-	height: 205px;
+	height: 195px;
 }
 #form-contact {
 	padding-left: 45px;
@@ -310,6 +319,10 @@ img.profile.img-responsive {
 	color: #B9B9B9;
 	padding-top: 35px;
 	padding-bottom: 35px;
+	position: relative;
+	box-shadow: 0px -4px 8px #888888;
+	z-index: 1;
+	border-top: solid 1px #888888;
 	}
 	#footer h4 {
 		margin: 0px;
@@ -341,5 +354,47 @@ img.profile.img-responsive {
 	}
 	#jrq-logo {
 		width: 50px;
-	}
+	}/*End Footer*/
 
+
+/*Animation*/
+
+/*muncul ke 1*/
+.showup-1 {
+}
+
+/*muncul ke 2*/
+.showup-2 {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+/*muncul ke 3*/
+.showup-3 {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+
+/*muncul ke 4*/
+.showup-4 {
+	-webkit-animation-delay: 0.9s;
+	animation-delay: 0.9s;
+}
+
+/*muncul ke 5*/
+.showup-5 {
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+/*muncul ke 6*/
+.showup-6 {
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
+/*END Animation*/
+
+.wow {
+   visibility: hidden;
+}
