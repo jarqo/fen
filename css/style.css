@@ -58,7 +58,7 @@ hr {
 }
 .top-nav-collapse {
 	background: #222222;
-	box-shadow: 0px 4px 8px #888888;
+	box-shadow: 0px 1px 8px #222222;
 	z-index: 2;
 }
 
@@ -286,12 +286,15 @@ hr {
 	}
 #contact-content {
 	padding: 70px 0px;
-}
+	}
 img.profile.img-responsive {
 	width: 160px;
 }
+#personal-info {
+	padding-left: 0px;
+}
 #gmaps {
-	margin-top: 20px;
+	margin-top: 25px;
 	margin-left: 15px;
 	padding-right: 15px;
 	height: 205px;
