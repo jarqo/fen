@@ -341,5 +341,47 @@ img.profile.img-responsive {
 	}
 	#jrq-logo {
 		width: 50px;
-	}
+	}/*End Footer*/
 
+
+/*Animation*/
+
+/*muncul ke 1*/
+.showup-1 {
+}
+
+/*muncul ke 2*/
+.showup-2 {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+/*muncul ke 3*/
+.showup-3 {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+
+/*muncul ke 4*/
+.showup-4 {
+	-webkit-animation-delay: 0.9s;
+	animation-delay: 0.9s;
+}
+
+/*muncul ke 5*/
+.showup-5 {
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+/*muncul ke 6*/
+.showup-6 {
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
+/*END Animation*/
+
+.wow {
+   visibility: hidden;
+}
