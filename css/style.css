@@ -416,3 +416,18 @@ div.modal-body img {
 	float: left;
 	width: 50px;
 }
+
+
+/*ihover.css Overide*/
+.ih-item.square.effect6.from_left_and_right {
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+	border: none;
+}
+.ih-item.square.effect6.from_left_and_right .info h3 {
+	padding-top: 15%;
+}
+.ih-item.square.effect6.from_left_and_right .info {
+	background: rgba(34, 34, 34, 0.8);
+}
