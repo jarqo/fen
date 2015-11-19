@@ -398,3 +398,21 @@ img.profile.img-responsive {
 .wow {
    visibility: hidden;
 }
+
+
+/*Modal*/
+.modal-footer {
+	border: none;
+}
+.modal-content {
+	border-radius: 0px;
+	background-color: #EEEEEE;
+	padding: 15px;
+}
+.modal-dialog {
+    margin-top: 20%;
+}
+div.modal-body img {
+	float: left;
+	width: 50px;
+}
