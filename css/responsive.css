@@ -26,6 +26,12 @@
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+
+
+	/*ihover*/
+	.ih-item.square.effect6.from_left_and_right {
+		max-width: 293px;
+	}
 }
  
 /* Landscape phone to portrait tablet */
@@ -96,6 +102,12 @@
 	}
 	#form-contact {
 		padding-left: 15px;
+	}
+
+
+	/*ihover*/
+	.ih-item.square.effect6.from_left_and_right {
+		max-width: 293px;
 	}
 }
 
