@@ -1,16 +1,28 @@
+/*Font Setting*/
 body {
     font-family: "Roboto",sans-serif;
 }
-
+h1, #name h2, h3, h4 {
+    font-family: "Roboto-thin",sans-serif;
+}
+h1, h3, h4 {
+	font-weight: 900;
+}
+h5 {
+	font-weight: 300;
+}
+label {
+	font-weight: normal;
+}
 @font-face {
 	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+	src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Roboto-thin';
+	src: url('../fonts/Roboto-Thin.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: 'Museo';
-	src: url('../fonts/Museo700.ttf') format('truetype');
-}
 
 a, button{
   -webkit-transition: color 300ms, background-color 300ms;
@@ -76,7 +88,6 @@ hr {
     border-top: solid 2px #eee;
 }
 .navbar-nav > li > a {
-	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -90,10 +101,8 @@ hr {
 
 /*.jumbotron .about .name*/
 #name h1{
-	font-weight: bold;
 	color: white;
 	letter-spacing: 5px;
-	/*background-color: #222222;*/
 	margin: 0px;
 	padding: 8px 15px;
 	}
@@ -125,7 +134,7 @@ hr {
 
 /*section*/
 #about-2 {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(34, 34, 34, 0.8);
 	padding-top: 72px;
 	box-shadow: 0px 4px 8px #888888;
 	border-bottom: solid 1px #888888;
@@ -142,12 +151,23 @@ hr {
 		color: white;
 		text-align: center;
 		line-height: 35px;
-		padding: 40px 0px 45px 0px;
+		padding: 30px 0px 30px 0px;
 		letter-spacing: 1px;
+	}
+	#about-2 div.col-md-8 {
+		text-align: center;
 		}
+		#about-2 div.col-md-8 i {
+			color: white;
+			margin-bottom: 30px;
+		}
+		#about-2 div.col-md-8 i:hover {
+			color: #B7B7B7;
+		}
+
 	.social {
 		text-align: center;
-		padding-top: 50px;
+		padding-top: 30px;
 		}
 		.social-share {
 			display: inline-block;
@@ -179,7 +199,6 @@ hr {
 		text-align: left;
 		color: #404040;
 		margin: 0px;
-		/*padding-top: 15px;*/
 		padding-bottom: 15px;
 		padding-left: 0px;
 		font-weight: bold;
@@ -206,7 +225,7 @@ hr {
 		padding-left: 0px;
 	}
 	#media {
-		padding-bottom: 50px;
+		padding-bottom: 80px;
 		}
 		#media a {
 			color: #B6B6B6;
@@ -242,11 +261,11 @@ hr {
 	.inner {
 			background-color: transparent;
 			height: 460px;
-			margin-bottom: 28px;
+			margin-bottom: 60px;
 			padding: 60px;
 		}
-		.inner h4 {
-			padding: 12px 0px 35px 0px;
+		.inner h3 {
+			padding: 18px 0px 60px 0px;
 		}
 		.inner ul {
 			-webkit-padding-start: 20px;
@@ -254,17 +273,19 @@ hr {
 		.new-line {
 			margin-top: 25px;
 		}
+#resume div.col-lg-12.text-center a {
+	background-color: transparent;
+	border: solid 3px #404040;
+	margin-left: 6px;
+	font-weight: 900;
+	font-style: italic;
+}
+#resume div.col-lg-12.text-center a:hover {
+	background-color: #404040;
+	color: white;
+}
 
-
-/*#contact-bg {
-	background: url(../img/contact-bg.jpg) no-repeat center;
-	background-size: cover;
-	height: 100%;
-	padding: 0px;
-	margin: 0px;
-}*/
 #contact{
-	/*background-color: rgba(64, 64, 64, 0.9);*/
 	background-color: #EEEEEE;
 	color: #404040;
 	}
@@ -315,7 +336,7 @@ img.profile.img-responsive {
 
 
 #footer {
-	background-color: #222222;
+	background-color: rgba(34, 34, 34, 1);
 	color: #B9B9B9;
 	padding-top: 35px;
 	padding-bottom: 35px;
@@ -332,7 +353,6 @@ img.profile.img-responsive {
 		display: inline-block;
 		list-style: outside none none;
 		padding-left: 0px;
-		/*float: left;*/
 	}
 	ul.social-foot {
 		padding-top: 25px;
