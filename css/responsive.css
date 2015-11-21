@@ -16,8 +16,8 @@
 		padding: 0px 230px 40px 230px;
 		height: auto;
 	}
-	#resume h1 {
-		padding-bottom: 70px;
+	#view-doc {
+		margin-bottom: 70px;
 	}
 
 
@@ -82,8 +82,9 @@
 		padding-bottom: 50px;
 		height: auto;
 	}
-	#resume h1 {
-		padding-bottom: 70px;
+	#view-doc {
+		margin-bottom: 70px;
+		line-height: 37px;
 	}
 
 
@@ -130,5 +131,10 @@
 	/*Portfolio*/
 	#media div.col-sm-3 {
 		padding-bottom: 20px;
+	}
+
+	/*Resume*/
+	#view-doc {
+		line-height: 37px;
 	}
 }
